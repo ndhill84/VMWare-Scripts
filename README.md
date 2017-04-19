@@ -1,2 +1,2 @@
 # VMWare-Scripts
-Mostly PowerCLI scripts I use for VMWare.
+PowerCLI scripts I use for VMWare tasks.
