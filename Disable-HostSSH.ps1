@@ -10,8 +10,8 @@ if($Do -match "N"){
 } 
 if ($Do -Match "Y") {
     
-    Write-Host "Doing Something"
+    Write-Host "Shutting Down SSH..."
     Get-VMHost | ForEach {Stop-VMHostService -HostService ($_ | Get-VMHostService | Where {$_.Key -eq “TSM-SSH”})}
 
 }
-    
+write-host "Complete."
